@@ -1,0 +1,228 @@
+
+# In[1]:
+
+
+for i in range(1, 6):
+    print(i)
+1
+2
+3
+4
+5
+
+# In[2]:
+
+
+num = 10
+
+if num > 5:
+    print("Greater than 5")
+else:
+    print("Less or equal to 5")
+
+o/p: Greater than 5
+
+# In[3]:
+
+
+name = "Nikhil"
+age = 25
+
+print("My name is {} and I am {} years old".format(name, age))
+
+My name is Nikhil and I am 25 years old
+
+
+# In[4]:
+
+
+name = "Nikhil"
+age = 25
+
+print(f"My name is {name} and I am {age} years old")
+
+o/p:My name is Nikhil and I am 25 years old
+
+
+# In[5]:
+
+
+i = 1
+
+while i <= 5:
+    print(i)
+    i += 1
+1
+2
+3
+4
+5
+
+
+# In[6]:
+
+
+for i in range(1, 10):
+    if i == 5:
+        break
+    print(i)
+1
+2
+3
+4
+
+
+
+# In[7]:
+
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+1
+2
+4
+5
+
+
+
+# In[8]:
+
+
+text = "python"
+
+print(text.upper())     
+print(text.lower())     
+print(len(text))        
+print(text[0])   
+       #
+
+
+# In[9]:
+
+
+numbers = [10, 20, 30, 40]
+
+print(numbers[0])        # first element
+
+numbers.append(50)       # add element
+print(numbers)
+
+numbers.remove(20)       # remove element
+print(numbers)
+
+PYTHON
+python
+6
+p
+
+# In[10]:
+
+
+numbers = [1, 2, 3, 4, 5]
+
+for num in numbers:
+    if num % 2 == 0:
+        print(f"{num} is even")
+    else:
+        print(f"{num} is odd")
+1 is odd
+2 is even
+3 is odd
+4 is even
+5 is odd
+
+
+# In[11]:
+
+
+# right traingle
+rows = 5
+
+for i in range(1, rows + 1):
+    print("*" * i)
+*
+**
+***
+****
+*****
+
+# In[12]:
+
+
+rows = 5
+i = 1
+
+while i <= rows:
+    print("*" * i)
+    i += 1
+*
+**
+***
+****
+*****
+
+
+# In[13]:
+
+
+# using for
+rows = 5
+
+for i in range(rows, 0, -1):
+    print("*" * i)
+*****
+****
+***
+**
+*
+
+
+# In[14]:
+
+
+rows = 5
+i = rows
+
+while i >= 1:
+    print("*" * i)
+    i -= 1
+*****
+****
+***
+**
+*
+
+# In[16]:
+
+
+rows = 5
+
+for i in range(1, rows + 1):
+    print("".join(str(x) for x in range(1, i + 1)))
+1
+12
+123
+1234
+12345
+
+
+# In[17]:
+
+
+rows = 5
+i = 1
+
+while i <= rows:
+    print("".join(str(x) for x in range(1, i + 1)))
+    i += 1
+1
+12
+123
+1234
+12345
+
+
+
+
